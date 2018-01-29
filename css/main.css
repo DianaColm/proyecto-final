@@ -1,0 +1,27 @@
+.principal{
+    background-color: aqua;
+    text-align: center;
+}
+
+.initial{
+    width: 55%;
+    display: inline-block;
+}
+
+.news{
+    display: inline-block;
+    width: 40%;
+}
+
+.news>a>img{
+    float: right;
+    width: 100%;
+    
+}
+
+.profile{
+    border-radius: 50%;
+    height: 5vh;
+}
+
+
