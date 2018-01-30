@@ -34,13 +34,13 @@ li>a>i>.fa {
     color: #6E7F8D;
     transition: all .2s ease-in-out;
   }
-  
-  
+
+
   li>a>i.fa:hover {
     cursor: pointer;
     color: #1DA1F2;
   }
- 
+
   .heart,
   .trash,
   .comment{
