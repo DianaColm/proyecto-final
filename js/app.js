@@ -24,21 +24,14 @@ function authentication(provider) {
       var token = result.credential.accessToken;
       // The signed-in user info.
       var user = result.user;
-      console.log(result);
+      window.location.href = "../principal.html";
     })
   .catch(function(error) {
-    console.log(error);
-  // Handle Errors here.
-  var errorCode = error.code;
-  console.log(errorCode);
-  var errorMessage = error.message;
-  console.log(errorMessage);
-  // The email of the user's account used.
-  var email = error.email;
-  console.log(email);
-  // The firebase.auth.AuthCredential type that was used.
-  var credential = error.credential;
-  console.log(credential);
-});
-}
+    // Handle Errors here.
+    var errorCode = error.code;
+    var errorMessage = error.message;
+    var email = error.email;
+    var credential = error.credential;
 
+  });
+}
