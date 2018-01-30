@@ -1,3 +1,33 @@
+body{
+    background-image: url(../assets/images/acuarela1.jpg)
+}
+
+#comentario{
+    width: 80%;
+    height: 5vh;
+    margin-top: 5%;
+    border:1px solid #1DA1F2;
+    overflow: hidden;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#benviar{
+    background-color: transparent;
+    color: #1DA1F2;
+    display: inline-block;
+    
+}
+#comments{
+list-style: none;
+text-decoration: none;
+}
+
+.navbar-expand-lg {
+    background-image: url(../assets/images/fondo.jpg)
+}
+
 .principal {
     background-color: aqua;
     text-align: center;
@@ -31,14 +61,18 @@
 
 li>a>i>.fa {
     font-size: 20px;
-    color: #6E7F8D;
+    color:white;
     transition: all .2s ease-in-out;
   }
 
 
   li>a>i.fa:hover {
     cursor: pointer;
-    color: #1DA1F2;
+    color: white;
+  }
+
+  .nav-link{
+      color: white;
   }
 
   .heart,
@@ -53,3 +87,5 @@ li>a>i>.fa {
     height: 10vh;
     margin-left: 37%;
 }
+
+
