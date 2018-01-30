@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.head{
+  border-bottom: none;
+  margin-bottom: 24px;
+  padding-bottom: 0;
+}
+
+.display {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: blue;
+  margin-left: 10px;
+}
+
+@media (max-width: 735px) {
+.display {
+    height: 25vh;
+    width: 25vw;
+  }
+}
+
+@media (min-width: 736px){
+.display {
+    margin-right: 30px;
+  }
+}
+
+.infop {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.fas {
+  font-size: 22px;
+  color: black;
+}
