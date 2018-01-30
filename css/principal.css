@@ -47,3 +47,9 @@ li>a>i>.fa {
       float: right;
       margin-left: 5%;
   }
+
+.logo{
+    width: 20%;
+    height: 10vh;
+    margin-left: 37%;
+}
