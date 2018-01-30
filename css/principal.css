@@ -5,6 +5,7 @@
 
 .initial {
     width: 55%;
+    margin-left: 24%;
     display: inline-block;
 }
 
@@ -22,3 +23,27 @@
     border-radius: 50%;
     height: 5vh;
 }
+
+.fixed-bottom{
+    text-decoration: none;
+    list-style: none;
+}
+
+li>a>i>.fa {
+    font-size: 20px;
+    color: #6E7F8D;
+    transition: all .2s ease-in-out;
+  }
+  
+  
+  li>a>i.fa:hover {
+    cursor: pointer;
+    color: #1DA1F2;
+  }
+ 
+  .heart,
+  .trash,
+  .comment{
+      float: right;
+      margin-left: 5%;
+  }
