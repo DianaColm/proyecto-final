@@ -24,6 +24,19 @@ list-style: none;
 text-decoration: none;
 }
 
+.carousel{
+    border: 1px solid black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: black;
+}
+
+.carousel-item{
+    margin-left: 50%;
+}
+
 .navbar-expand-lg {
     background-image: url(../assets/images/fondo.jpg)
 }
