@@ -115,3 +115,8 @@ width: 30%;
     border: none;
     border-style: none;
 }
+
+.red {
+	color: #FC1E26;
+	cursor: pointer;
+}

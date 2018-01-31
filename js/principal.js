@@ -1,3 +1,5 @@
+/*Método para subir imágenes con lectorde archivos */
+
 var openFile = function(event) {
     var input = event.target;
 
@@ -9,3 +11,18 @@ var openFile = function(event) {
     };
     reader.readAsDataURL(input.files[0]);
   };
+
+  /*Método jquery para publicarcomentarios uno encima de otro sin que desaparezcan */
+  $(document).ready(function () {
+    $("#benviar").click(function () {
+
+        $("#comments").prepend('<li>' + $("#comentario").val() + '</li>');
+        $("#comentario").val('');
+    });
+});
+
+/*Método para pintar de rojo el corazoncito cuando se da click */
+var heart= document.getElementsByClassName('heart')
+heart.addEventListener('click', function(){
+    heart.classList.toggle('red');
+})
