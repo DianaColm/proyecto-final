@@ -1,4 +1,4 @@
-/*Método para subir imágenes con lectorde archivos */
+/*Método para subir imágenes con lector de archivos */
 
 var openFile = function(event) {
     var input = event.target;
@@ -12,7 +12,7 @@ var openFile = function(event) {
     reader.readAsDataURL(input.files[0]);
   };
 
-  /*Método jquery para publicarcomentarios uno encima de otro sin que desaparezcan */
+  /*Método jquery para publicar comentarios uno encima de otro sin que desaparezcan */
   $(document).ready(function () {
     $("#benviar").click(function () {
 

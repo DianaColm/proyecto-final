@@ -17,7 +17,7 @@
   height: 30vh;
   border-radius: 50%;
   box-sizing: border-box;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 /*@media (max-width: 1024px) {
@@ -34,12 +34,25 @@
   }
 }
 
-.infop {
-  /*margin: 0 auto;*/
-  display: inline-block;
+.user {
+  margin: 0 auto;
+  text-align: center;
 }
 
 h1 {
   font-size: 22px;
   text-align: center;
+}
+
+.carousel-inner {
+  height: 20vh;
+}
+
+  .carousel-inner img {
+    max-height: 460px;
+    width: 100%;
+}
+
+#foot {
+  position: fixed;
 }
