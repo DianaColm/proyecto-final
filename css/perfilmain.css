@@ -12,38 +12,34 @@
 }
 
 .display {
+  content: url(../assets/images/imgperfil.jpg);
   width: 30vh;
   height: 30vh;
   border-radius: 50%;
   box-sizing: border-box;
-  background: blue;
   margin-left: 10px;
 }
 
-@media (max-width: 735px) {
+/*@media (max-width: 1024px) {
 .display {
     height: 25vh;
-    width: 25vw;
+    width: 35vw;
   }
-}
+}*/
 
-@media (min-width: 736px){
+@media (min-width: 360px){
 .display {
-    margin-right: 30px;
+    height: 20vh;
+    width: 33vw;
   }
 }
 
 .infop {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   display: inline-block;
 }
 
 h1 {
   font-size: 22px;
   text-align: center;
-}
-
-.fas {
-  font-size: 22px;
-  color: black;
 }

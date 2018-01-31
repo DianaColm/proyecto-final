@@ -24,7 +24,7 @@ function authentication(provider) {
       var token = result.credential.accessToken;
       // The signed-in user info.
       var user = result.user;
-      window.location.href = "../principal.html";
+      window.location.href = "principal.html";
     })
   .catch(function(error) {
     // Handle Errors here.
