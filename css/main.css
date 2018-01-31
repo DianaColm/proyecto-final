@@ -63,7 +63,7 @@ input {
     border-radius: 5px;
 }
 
-input[type="submit"] {
+input[type="button"] {
     cursor: pointer;
     border-radius: 10px;
     margin-bottom: 0;
