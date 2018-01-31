@@ -17,8 +17,8 @@ body{
     background-color: transparent;
     color: #1DA1F2;
     display: inline-block;
-
 }
+
 #comments{
 list-style: none;
 text-decoration: none;
@@ -39,7 +39,7 @@ margin-right: 4%;
 
 
 .carousel-item{
-    margin-left: 40%;
+    margin-left: 100%;
 }
 
 .navbar-expand-lg {

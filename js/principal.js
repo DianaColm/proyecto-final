@@ -1,8 +1,6 @@
 /*Método para subir imágenes con lector de archivos */
-
 var openFile = function(event) {
     var input = event.target;
-
     var reader = new FileReader();
     reader.onload = function(){
       var dataURL = reader.result;
@@ -15,8 +13,7 @@ var openFile = function(event) {
   /*Método jquery para publicar comentarios uno encima de otro sin que desaparezcan */
   $(document).ready(function () {
     $("#benviar").click(function () {
-
-        $("#comments").prepend('<li>' + $("#comentario").val() + '</li>');
+        $("#comments").prepend('<li>' + $("#comentario").val()+'</li>');
         $("#comentario").val('');
     });
 });

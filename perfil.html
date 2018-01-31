@@ -10,15 +10,21 @@
   <link rel="stylesheet" href="css/perfilmain.css">
   <link rel="stylesheet" href="css/principal.css">
   <title>Artgram</title>
+  <link rel="shortcut icon" href="assets/images/logoart.png">
 </head>
 <body>
-<!--  <header>
+
+  <!--Header con color y logo de la red-->
+  <header class="row principal">
     <div class="col-xs-12 col-sm-12">
-      <div class="row principal">
-        <h1 class="red">Artgram</h1>
+      <div class="row">
+        <div class="col-xs-3 logNav">
+  
+        </div>
       </div>
     </div>
-  </header>-->
+  </header>
+
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="dropdown show">
@@ -76,6 +82,22 @@
   </main>
 
 <section class="row">
+
+  <!--Buscador de archivo para subir imagenes-->
+  <section>
+    <input type='file' accept='image/*' onchange='openFile(event)' id="image">
+    <br>
+    
+  </section>
+<section>
+  <!--Area para escribir comentarios-->
+  <div class="col-xs-6 col-sm-6 col-offset-sm-1">
+    <textarea id="comentario" COLS=12 ROWS=1 placeholder="Qué estás pensando?"></textarea>
+    <i class="fa fa-paper-plane" aria-hidden="true" type="button" id="benviar" value="enviar"></i>
+  
+    
+  </section>
+
   <div class="col-xs-12 col-sm-12" style="margin-left:25px">
       <a href="#">
           <!--Nombre perfil amigo-->
@@ -111,6 +133,21 @@
 </div>
 </section>
 
+<section>
+  <!--Area para publicar comentarios-->
+  <div>
+    
+  <ul id="comments">
+    
+  </ul>
+  </div>
+</section>
+
+<section>
+<div>
+  <img id='output'>
+</div>
+</section>
 
 <nav id="foot" class="navbar fixed-bottom navbar-light bg-light">
   <li>
@@ -160,7 +197,7 @@
     </div>
 </div>
 
-  <script src="js/app.js"></script>
+  <script src="js/principal.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/5c79a649d1.js"></script>
