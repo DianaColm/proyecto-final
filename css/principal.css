@@ -1,5 +1,5 @@
 body{
-    background-image: url(../assets/images/acuarela1.jpg)
+  background-image: url(../assets/images/acuarela1.jpg);
 }
 
 #comentario{
@@ -17,7 +17,7 @@ body{
     background-color: transparent;
     color: #1DA1F2;
     display: inline-block;
-    
+
 }
 #comments{
 list-style: none;
@@ -43,12 +43,20 @@ margin-right: 4%;
 }
 
 .navbar-expand-lg {
-    background-image: url(../assets/images/fondo.jpg)
+    background-image: url(../assets/images/fondo.jpg);
 }
 
 .principal {
     background-color: aqua;
     text-align: center;
+    height: 15vh;
+
+}
+
+.logNav{
+  content: url(../assets/images/logoartt.png);
+  height: 15vh;
+  margin: 0 auto;
 }
 
 .initial {

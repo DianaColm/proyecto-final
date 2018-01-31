@@ -1,14 +1,12 @@
-/*vista splash */
+/*vista splash*/
 
-$().ready(function () {
-  $("#splash").fadeIn(0000).fadeOut(2000);
-});
-
-$(document).ready(function() {   
+$(document).ready(function() {
+  $("#splash").fadeIn().fadeOut(3000);
   setTimeout(function() {
-      $("#container2").fadeIn(1500);
-  },2000);
+      $("#main").fadeIn(1500);
+  },3000);
 });
+
 
 //Initialize firebase
 var config = {
@@ -36,7 +34,7 @@ function authentication(provider) {
       var token = result.credential.accessToken;
       // The signed-in user info.
       var user = result.user;
-      window.location.href = "../principal.html";
+      window.location.href = "principal.html";
     })
   .catch(function(error) {
     // Handle Errors here.

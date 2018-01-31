@@ -12,30 +12,31 @@
 }
 
 .display {
+  content: url(../assets/images/imgperfil.jpg);
   width: 30vh;
   height: 30vh;
   border-radius: 50%;
   box-sizing: border-box;
-  background: blue;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
-@media (max-width: 735px) {
+/*@media (max-width: 1024px) {
 .display {
     height: 25vh;
-    width: 25vw;
+    width: 35vw;
   }
-}
+}*/
 
-@media (min-width: 736px){
+@media (min-width: 360px){
 .display {
-    margin-right: 30px;
+    height: 20vh;
+    width: 33vw;
   }
 }
 
-.infop {
+.user {
   margin: 0 auto;
-  display: inline-block;
+  text-align: center;
 }
 
 h1 {
@@ -43,7 +44,15 @@ h1 {
   text-align: center;
 }
 
-.fas {
-  font-size: 22px;
-  color: black;
+.carousel-inner {
+  height: 20vh;
+}
+
+  .carousel-inner img {
+    max-height: 460px;
+    width: 100%;
+}
+
+#foot {
+  position: fixed;
 }

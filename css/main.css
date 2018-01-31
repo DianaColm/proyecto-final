@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 
@@ -17,29 +17,36 @@ form {
     max-width: 500px;
     background: #F3F3F3;
     padding: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
-h2 {
-    text-align: center;
+.logo {
+    content: url(../assets/images/logoartt.png);
     margin-bottom: 20px;
-    color: rgba(0, 0, 0, 0.5);
+    width: 20vh;
+    height: 20vh;
+    margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
 }
 
 input {
     display: block;
     padding: 10px;
     width: 100%;
-    margin: 30px 0;
-    font-size: 20px;
+    margin: 25px 0;
+    font-size: 15px;
+    border-radius: 5px;
 }
 
 input[type="submit"] {
-    background: linear-gradient();
     cursor: pointer;
     border-radius: 10px;
     margin-bottom: 0;
+    text-decoration: none;
 }
 
 button {
@@ -47,6 +54,7 @@ button {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
+  font-size: 15px;
 }
 
 @media (max-width:760px) {
