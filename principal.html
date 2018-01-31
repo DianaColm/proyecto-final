@@ -72,10 +72,10 @@
             <img class="profile" src="assets/images/perfil.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Second slide">
+            <img class="profile" src="assets/images/perfilamigo1.jpg" alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide">
+            <img class="profile" src="assets/images/perfilamigo2.jpg" alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -88,11 +88,11 @@
     </a>
 </div>
 
-<div id="filename"></div>
-<div id="progress"></div>
-<div id="progressBar"></div>
+<input type='file' accept='image/*' onchange='openFile(event)' id="image">
+<br>
+<div><img id='output'></div>
 
-<input type="file" name="file">
+
 
         <div class=" initial ">
             <div class="row">
@@ -122,20 +122,52 @@
 
 
 
-          <nav class="navbar fixed-bottom navbar-light bg-light">
-            <li><a href="#"><i class="fa fa-home" aria-hidden="true">Home</i></a></li>
-                <li><a href="#"><i class="fa fa-plus-circle" aria-hidden="true">Añadir</i>
+          <nav class="navbar fixed-bottom navbar-light bg-light ">
+            <li><a href="perfil.html"><i class="fa fa-home" aria-hidden="true">Home</i></a></li>
+                <li><a href="principal.html"><i class="fa fa-user" aria-hidden="true"></i>
+                    Amigos</i>
                     </a></li>
 
-                <li><a href="#"><i class="fa fa-eye" aria-hidden="true">Novedades</i></a></li>
+                <li id="eye" class="btn " data-toggle="modal" data-target="#exampleModal">
+                    <i class="fa fa-eye" aria-hidden="true">Novedades</i></a></li>
 
                 
 
               </ul>
           </nav>
 
+<!---->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Eventos culturales y artísticos</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body col-xs-12 col-sm-12" id="news">
+                  <div class="row">
+                        <a href="http://www.bizarro.fm/agenda/">
+                            <img src="assets/images/concierto.jpg" alt="concierto">
+                        </a>
+                        <a href="https://burton.srpago.com/es/index/products">
+                            <img src="assets/images/expo.png" alt="tim burton">
+                        </a>
+                        <a href="https://mexico.electricdaisycarnival.com/lineup/">
+                            <img src="assets/images/festival.jpg" alt="festival">
+                        </a>
 
-<script src="js/app.js"></script>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<script src="js/principal.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
