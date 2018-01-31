@@ -1,10 +1,13 @@
 /*vista splash*/
 
 $(document).ready(function() {
-  $("#splash").fadeIn().fadeOut(3000);
   setTimeout(function() {
-      $("#main").fadeIn(1500);
-  },3000);
+    $(".preload").fadeOut(1500);
+  }, 3000);
+
+  setTimeout(function() {
+      $("#main").fadeIn(1500)
+  }, 3000);
 });
 
 
