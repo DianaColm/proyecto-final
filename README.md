@@ -1,5 +1,7 @@
 # Artgram
 
+![portadaartgram](https://user-images.githubusercontent.com/32855378/38586921-4937cf30-3ce5-11e8-8122-64876541e965.png)
+
 * **Track:** _Common Core_
 * **Curso:** _Crea tu propia red social_
 * **Unidad:** _Producto final_
